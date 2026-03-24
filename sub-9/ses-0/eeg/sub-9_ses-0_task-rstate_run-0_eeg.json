@@ -1,0 +1,33 @@
+{
+	"TaskName": "rstate",
+	"Manufacturer": "g.tec",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 512.0,
+	"SoftwareFilters": "n/a",
+	"RecordingDuration": 144.748046875,
+	"RecordingType": "continuous",
+	"EEGReference": "right earlobe",
+	"EEGGround": "n/a",
+	"EEGPlacementScheme": "standard_1010",
+	"EEGChannelCount": 16,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "g.tec g.USBamp",
+	"SoftwareVersions": "OpenViBE",
+	"HardwareFilters": {
+		"HardwareFilter": "no digital filter"
+	},
+	"TaskDescription": "Subjects alternated between keeping eyes closed (condition 1) and eyes open (condition 2) while EEG was recorded Trial duration: 10s.",
+	"Instructions": "n/a",
+	"InstitutionName": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+	"InstitutionAddress": "11 rue des Math\u00e9matiques, Grenoble Campus BP46, F-38402, France",
+	"InstitutionalDepartmentName": "GIPSA-lab",
+	"CapManufacturer": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "EEG recording.",
+	"MISCChannelCount": 0
+}

@@ -1,0 +1,41 @@
+{
+	"Name": "Alphawaves dataset",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-4.0",
+	"Authors": [
+		"Gr\u00e9goire Cattan",
+		"Pedro Luiz Coelho Rodrigues",
+		"Marco Congedo"
+	],
+	"HowToAcknowledge": "Please cite: Cattan, Rodrigues & Congedo (2018). EEG Alpha Waves Dataset. GIPSA-lab Research Report. https://hal.science/hal-02086581",
+	"EthicsApprovals": [
+		"All participants provided written informed consent"
+	],
+	"ReferencesAndLinks": [
+		"https://doi.org/10.5281/zenodo.2348891",
+		"hal-02086581"
+	],
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "https://doi.org/10.5281/zenodo.2348892",
+			"URL": "https://doi.org/10.5281/zenodo.2348891"
+		}
+	],
+	"Keywords": [
+		"Healthy",
+		"Resting State",
+		"Resting-state",
+		"rstate"
+	],
+	"PublicationYear": 2018
+}
