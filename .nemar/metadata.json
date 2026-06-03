@@ -1,0 +1,106 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Grégoire Cattan": {
+      "orcid": "0000-0002-7515-0690",
+      "affiliations": [
+        {
+          "name": "GIPSA-lab"
+        }
+      ]
+    },
+    "Pedro Luiz Coelho Rodrigues": {},
+    "Marco Congedo": {
+      "orcid": "0000-0003-2196-0409",
+      "affiliations": [
+        {
+          "name": "GIPSA-lab"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.2348891",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000221",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000221",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.2348892",
+      "identifier_type": "DOI",
+      "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Alphawaves dataset",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "85.5 MB (20 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "The Alphawaves dataset comprises resting-state EEG recordings from 19 healthy participants acquired using a 16-channel g.tec g.USBamp system at 512 Hz sampling rate. Participants alternated between eyes-closed and eyes-open conditions in 10-second trials. The raw, unpreprocessed data serves as a benchmark resource for brain-computer interface research and resting-state EEG analysis, with event-related synchronization (ERS) analysis in the alpha frequency band (8-12 Hz) as a suggested analysis method.",
+  "methods_description": "EEG data were acquired from 19 healthy subjects using a 16-channel g.tec g.USBamp amplifier with wet electrodes referenced to the right earlobe, sampled at 512 Hz with a standard 10-10 montage. Participants performed a resting-state paradigm alternating between eyes-closed and eyes-open conditions in 10-second trials. Data were recorded using OpenViBE software with no online digital filtering applied.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "event-related synchronization"
+    },
+    {
+      "term": "healthy volunteers"
+    },
+    {
+      "term": "eyes-closed"
+    },
+    {
+      "term": "eyes-open"
+    },
+    {
+      "term": "g.USBamp"
+    }
+  ],
+  "source_hash": "360b29c22457748339c3d719a81e888d60faa6e9a185b78267fe0a21b99cca55"
+}
