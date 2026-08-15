@@ -17,7 +17,9 @@
 	"ManufacturersModelName": "g.tec g.USBamp",
 	"SoftwareVersions": "OpenViBE",
 	"HardwareFilters": {
-		"HardwareFilter": "no digital filter"
+		"HardwareFilter": {
+			"Description": "no digital filter"
+		}
 	},
 	"TaskDescription": "Subjects alternated between keeping eyes closed (condition 1) and eyes open (condition 2) while EEG was recorded Trial duration: 10s.",
 	"Instructions": "n/a",
