@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Alphawaves dataset",
-  "description": "The Alphawaves dataset comprises resting-state EEG recordings from 19 healthy participants acquired using a 16-channel g.tec g.USBamp system at 512 Hz sampling rate. Participants alternated between eyes-closed and eyes-open conditions in 10-second trials, with data annotated using HED 8.4.0 schema. This dataset is designed for benchmarking brain-computer interface algorithms and studying alpha oscillatory activity during different resting states.",
-  "methods_description": "EEG data were recorded from 19 healthy subjects (mean age 25.8 years) using a 16-channel g.tec g.USBamp amplifier with wet electrodes at a sampling rate of 512 Hz. The standard 10-10 montage was used with right earlobe reference. Subjects performed a resting-state paradigm alternating between eyes-closed and eyes-open conditions, with each trial lasting 10 seconds. Data were acquired using OpenViBE software with a 50 Hz line frequency and no online digital filtering applied.",
+  "description": "The Alphawaves dataset comprises resting-state EEG recordings from 19 healthy participants acquired using a 16-channel g.tec g.USBamp system at 512 Hz sampling rate. Participants alternated between eyes-closed and eyes-open conditions in 10-second trials, with event-related synchronization analysis focused on alpha frequency band activity (8-12 Hz). This dataset serves as a benchmark resource for brain-computer interface research and resting-state EEG analysis.",
+  "methods_description": "EEG data were acquired from 19 healthy subjects using a 16-channel g.tec g.USBamp amplifier with wet electrodes in a standard 10-10 montage, sampled at 512 Hz with right earlobe reference. Subjects performed alternating eyes-closed and eyes-open resting-state conditions, each lasting 10 seconds. Data were recorded using OpenViBE software with 50 Hz line frequency and no online digital filtering applied.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -39,16 +39,13 @@
       "term": "brain-computer interfaces"
     },
     {
-      "term": "eyes-closed eyes-open"
+      "term": "event-related synchronization"
     },
     {
-      "term": "healthy volunteers"
+      "term": "eyes-open eyes-closed"
     },
     {
-      "term": "g.tec g.USBamp"
-    },
-    {
-      "term": "HED 8.4.0"
+      "term": "Healthy"
     }
   ],
   "related_identifiers": [
@@ -100,5 +97,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "658e07e50677cfb33ef3de5ed1f9096b2e360f51ce97f53bda276ea288ea0d02"
+  "source_hash": "97557071d9bd7165aa81073b615c18c6a56050a948e919ecfa7b2aae442b7be2"
 }
