@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Alphawaves dataset",
-  "description": "The Alphawaves dataset comprises resting-state EEG recordings from 19 healthy participants acquired using a 16-channel g.tec g.USBamp system at 512 Hz sampling rate. Participants alternated between eyes-closed and eyes-open conditions in 10-second trials, with event-related synchronization analysis focused on alpha frequency band activity (8-12 Hz). This dataset serves as a benchmark resource for brain-computer interface research and resting-state EEG analysis.",
-  "methods_description": "EEG data were acquired from 19 healthy subjects using a 16-channel g.tec g.USBamp amplifier with wet electrodes in a standard 10-10 montage, sampled at 512 Hz with right earlobe reference. Subjects performed alternating eyes-closed and eyes-open resting-state conditions, each lasting 10 seconds. Data were recorded using OpenViBE software with 50 Hz line frequency and no online digital filtering applied.",
+  "description": "Resting-state EEG recordings from 19 healthy participants who alternated between eyes-closed and eyes-open conditions in 10-second trials. Data were acquired with a 16-channel g.tec g.USBamp system at 512 Hz to study posterior alpha-band (8-12 Hz) modulation. The dataset is distributed in BIDS format via MOABB and originates from the GIPSA-lab Alpha Waves dataset.",
+  "methods_description": "EEG was recorded from 16 wet electrodes (standard 10-10 positions) with a g.tec g.USBamp amplifier at 512 Hz, referenced to the right earlobe, using OpenViBE software with no online digital filter. Subjects alternated between eyes-closed and eyes-open conditions in 10-second trials, with one session per subject.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -33,26 +33,23 @@
       "term": "resting state"
     },
     {
-      "term": "alpha oscillations"
+      "term": "alpha waves"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "eyes closed"
     },
     {
-      "term": "event-related synchronization"
+      "term": "eyes open"
     },
     {
-      "term": "eyes-open eyes-closed"
-    },
-    {
-      "term": "Healthy"
+      "term": "brain-computer interface"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.2348891",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDerivedFrom"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000221",
@@ -67,12 +64,12 @@
     {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "https://nemar.org/dataset/nm000221",
@@ -86,7 +83,7 @@
     "eeg"
   ],
   "sizes": [
-    "186.8 MB (39 files)"
+    "178 MB (39 files)"
   ],
   "formats": [
     ".bdf",
